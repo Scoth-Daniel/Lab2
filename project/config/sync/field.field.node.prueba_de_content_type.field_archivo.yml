@@ -1,18 +1,18 @@
-uuid: 06cf30ea-7c10-402c-ab3a-55c5f6b24ff4
+uuid: 275f7625-6546-4a22-b68a-a553e3f34201
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_programa_del_curso
-    - media.type.document
-    - node.type.curso
-id: node.curso.field_programa_del_curso
-field_name: field_programa_del_curso
+    - field.storage.node.field_archivo
+    - media.type.titulo
+    - node.type.prueba_de_content_type
+id: node.prueba_de_content_type.field_archivo
+field_name: field_archivo
 entity_type: node
-bundle: curso
-label: 'Programa del curso'
+bundle: prueba_de_content_type
+label: Archivo
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,7 +20,7 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      document: document
+      titulo: titulo
     sort:
       field: _none
       direction: ASC

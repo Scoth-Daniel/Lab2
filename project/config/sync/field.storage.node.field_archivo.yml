@@ -1,12 +1,12 @@
-uuid: 7b9bea88-d890-460c-b4ba-875da9197efa
+uuid: bfa58714-e311-4853-8619-586374a9ce6a
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - node
-id: node.field_programa_del_curso
-field_name: field_programa_del_curso
+id: node.field_archivo
+field_name: field_archivo
 entity_type: node
 type: entity_reference
 settings:

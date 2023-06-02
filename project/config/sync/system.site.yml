@@ -1,8 +1,8 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 42b3acd5-759c-4685-b577-9ff3e8515f53
-name: drupalSite
+uuid: a9cc0e53-98de-4470-aeb8-96db275bc811
+name: 'Lab 2'
 mail: sr.scoth@gmail.com
 slogan: ''
 page:

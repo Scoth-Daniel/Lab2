@@ -1,18 +1,17 @@
-uuid: 49a6aeb7-48a2-4d57-9e78-7e77747038b1
+uuid: 12f44af9-061a-494a-8c2d-d855e2f317a8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.curso.body
-    - field.field.node.curso.field_diciplina_academica
-    - field.field.node.curso.field_programa_del_curso
-    - node.type.curso
+    - field.field.node.prueba_de_content_type.body
+    - field.field.node.prueba_de_content_type.field_archivo
+    - node.type.prueba_de_content_type
   module:
     - text
     - user
-id: node.curso.default
+id: node.prueba_de_content_type.default
 targetEntityType: node
-bundle: curso
+bundle: prueba_de_content_type
 mode: default
 content:
   body:
@@ -22,15 +21,7 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_diciplina_academica:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 103
-    region: content
-  field_programa_del_curso:
+  field_archivo:
     type: entity_reference_entity_view
     label: above
     settings:

@@ -1,18 +1,18 @@
-uuid: 9c018673-4d38-4996-8d55-1778260616df
+uuid: 7f64c4aa-23fc-41b5-846a-357b921206d0
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.curso
+    - node.type.prueba_de_content_type
   module:
     - text
-id: node.curso.body
+id: node.prueba_de_content_type.body
 field_name: body
 entity_type: node
-bundle: curso
-label: Descripción
-description: 'Describa el curso.'
+bundle: prueba_de_content_type
+label: Body
+description: ''
 required: false
 translatable: true
 default_value: {  }

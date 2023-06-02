@@ -1,13 +1,13 @@
-uuid: 446c86cb-ded4-4561-96ba-bb54b664cfdd
+uuid: 914906e0-3a81-4127-bffe-990a44934bf3
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - media
     - taxonomy
-id: node.field_diciplina_academica
-field_name: field_diciplina_academica
-entity_type: node
+id: media.field_licencia_de_contenido
+field_name: field_licencia_de_contenido
+entity_type: media
 type: entity_reference
 settings:
   target_type: taxonomy_term

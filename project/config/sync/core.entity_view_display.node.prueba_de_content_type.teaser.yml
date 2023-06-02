@@ -1,19 +1,18 @@
-uuid: 6d64e757-3e26-4e3d-b18b-d34beab3d1be
+uuid: a0d0a0f3-4b91-4ec6-b248-63670a1a751a
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.curso.body
-    - field.field.node.curso.field_diciplina_academica
-    - field.field.node.curso.field_programa_del_curso
-    - node.type.curso
+    - field.field.node.prueba_de_content_type.body
+    - field.field.node.prueba_de_content_type.field_archivo
+    - node.type.prueba_de_content_type
   module:
     - text
     - user
-id: node.curso.teaser
+id: node.prueba_de_content_type.teaser
 targetEntityType: node
-bundle: curso
+bundle: prueba_de_content_type
 mode: teaser
 content:
   body:
@@ -30,5 +29,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_diciplina_academica: true
-  field_programa_del_curso: true
+  field_archivo: true

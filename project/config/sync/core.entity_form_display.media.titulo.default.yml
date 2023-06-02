@@ -1,0 +1,71 @@
+uuid: 9589a9bf-80b5-4d1f-8c25-90a829bd722a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.titulo.field_licencia_de_contenido
+    - field.field.media.titulo.field_media_file
+    - media.type.titulo
+  module:
+    - file
+    - path
+id: media.titulo.default
+targetEntityType: media
+bundle: titulo
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_licencia_de_contenido:
+    type: entity_reference_autocomplete
+    weight: 101
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_media_file:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
